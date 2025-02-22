@@ -37,7 +37,7 @@ The following steps were followed:
    - Evaluate models using Accuracy and ROC AUC scores, storing results for comparison.
    - Compare results to determine the best approach.
 
-## 📈 Results
+## Results
 A comparison of different hyperparameter optimization methods:
 
 | Method              | Accuracy | ROC AUC |
@@ -50,7 +50,7 @@ A comparison of different hyperparameter optimization methods:
 | Optuna            | 79.50%   | 79.40%  |
 | TPOT (Genetic Alg) | 80.00%  | 80.00%  |
 
-## 🔥 Key Takeaways
+## Key Takeaways
 - **Grid Search** is exhaustive but computationally expensive.
 - **Randomized Search** is faster but may not always find the best hyperparameters.
 - **Bayesian Optimization (Hyperopt & Skopt)** is more efficient in finding optimal values.
@@ -74,7 +74,7 @@ pip install numpy pandas scikit-learn hyperopt scikit-optimize optuna tpot imbal
 jupyter notebook code.ipynb
 ```
 
-## 🤝 Contributing
+## Contributing
 Feel free to contribute! You can:
 - Report issues
 - Suggest improvements
